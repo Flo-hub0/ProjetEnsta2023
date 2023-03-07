@@ -123,7 +123,7 @@ int main( int nargs, char* argv[] )
     grid.updateVelocityField(vortices);
 
     Graphisme::Screen myScreen( {resx,resy}, {grid.getLeftBottomVertex(), grid.getRightTopVertex()} );
-    bool animate=false;
+    bool animate=true;
     double dt = 0.1;
 
     
